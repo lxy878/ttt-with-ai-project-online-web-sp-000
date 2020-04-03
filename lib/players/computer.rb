@@ -1,7 +1,8 @@
 module Players
   class Computer < Player
     def move(board)
-      board.cells.index(" ") + 1
+      valid_move = board.cells.index(" ") + 1
+      valid_move.to_s
     end
   end
 end
