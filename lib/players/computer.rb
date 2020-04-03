@@ -1,4 +1,4 @@
-module Computer
-  
+module Players
+  class Computer < player
 
 end
